@@ -14,3 +14,5 @@ add_executable(
         performance.cpp
         entrypoint.cpp
 )
+
+# g++ -std=c++20 -mavx -pthread -O3 -fopenmp entrypoint.cpp mod_ops.cpp num_threads.cpp performance.cpp randomize.cpp test.cpp vector_mod.cpp
