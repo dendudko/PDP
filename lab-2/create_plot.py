@@ -13,7 +13,7 @@ vector = data[0:0 + length]["Vector"]
 plt.plot(t, [float(i) for i in scalar], label="Время скаляр", c="blue")
 plt.plot(t, [float(i) for i in vector], label="Время вектор", c="red")
 
-plt.xlabel('Количество потоков')
+plt.xlabel('Номер эксперимента')
 plt.ylabel('Время выполнения, мс')
 plt.xticks(t)
 # plt.yticks([500 * i for i in range(0,7)])
