@@ -92,7 +92,7 @@ void ifft(const std::complex<double>* in, std::complex<double>* out, std::size_t
 
 int main()
 {
-    std::ofstream output("../output.csv");
+    std::ofstream output("./output.csv");
     if (!output.is_open())
     {
         std::cout << "Error. Could not open file!\n";
