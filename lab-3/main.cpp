@@ -9,7 +9,7 @@
 
 using namespace std;
 
-const size_t matrixSize = 64 * (1 << 3);
+const size_t matrixSize = 64 * (1 << 4);
 const int experiments = 10;
 
 void mulMatrix(
