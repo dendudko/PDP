@@ -8,7 +8,7 @@
 
 int main(int argc, char** argv)
 {
-    std::ofstream output("../output.csv");
+    std::ofstream output("./output.csv");
     if (!output.is_open())
     {
         std::cout << "Error. Could not open file!\n";

@@ -97,7 +97,7 @@ vector<double> getIdentityMatrix(size_t n) {
 int main(int argc, char **argv) {
     srand(time(nullptr));
 
-    std::ofstream output("../output.csv");
+    std::ofstream output("./output.csv");
 
     if (!output.is_open()) {
         std::cout << "Couldn't open file!\n";

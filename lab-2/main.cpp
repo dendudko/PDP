@@ -30,7 +30,7 @@ void addMatrix256(double *A, const double *B, const double *C, size_t colsc, siz
 std::vector<double> B(cols * rows, 1), C(cols * rows, -2), A(cols * rows);
 
 int main(int argc, char **argv) {
-    std::ofstream output("../output.csv");
+    std::ofstream output("./output.csv");
 
     if (!output.is_open()) {
         std::cout << "Couldn't open file!\n";

@@ -65,7 +65,7 @@ double runExperiment(std::function<double(double, double, size_t)> integrationFu
 }
 
 int main() {
-    std::ofstream output("../output.csv");
+    std::ofstream output("./output.csv");
 
     if (!output.is_open()) {
         std::cout << "Couldn't open file!\n";
