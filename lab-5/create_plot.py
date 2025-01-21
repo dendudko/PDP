@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas
 
-plt.figure(figsize=(8,6))
+plt.figure(figsize=(16,6))
 
 data = pandas.read_csv("output.csv")
 print(data)
