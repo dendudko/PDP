@@ -6,8 +6,8 @@
 #include <fstream>
 using namespace std::chrono;
 
-const int cols = 1 << 13;
-const int rows = 1 << 13;
+const int cols = 1 << 15;
+const int rows = 1 << 15;
 const size_t batch = 4;
 const size_t experiments = 10;
 
